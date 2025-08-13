@@ -1,15 +1,74 @@
-House Price Prediction (ML)
-Predict residential property prices using supervised machine learning (Linear/Elastic Net → Tree-based → Gradient Boosting). Includes data prep, EDA, training scripts, evaluation, and a simple app for inference.
+ House Price Prediction
+A simple Machine Learning project to predict house prices based on property features such as area, location, and number of rooms.
 
  Features
-Robust preprocessing: missing values, rare-label handling, outlier capping, skew/frequency encoders, scaling
+Data cleaning and preprocessing
 
-Model zoo: Linear/ElasticNet, RandomForest, XGBoost/LightGBM
+Exploratory Data Analysis (EDA)
 
-K-fold CV with metrics (RMSE/MAE/R²)
+Model training using Linear Regression, Random Forest, and XGBoost
 
-Experiment config via YAML
+Performance evaluation with RMSE, MAE, and R²
 
-Reproducible pipelines (scikit-learn Pipeline)
+Easy prediction for new/unseen data
+
+ Project Structure
+bash
+Copy
+Edit
+House-Price-Prediction/
+├── data/              # Dataset files
+├── notebooks/         # Jupyter notebooks for EDA & experiments
+├── src/               # Preprocessing & model training scripts
+├── models/            # Saved trained models
+├── results/           # Metrics and plots
+├── requirements.txt   # Python dependencies
+└── README.md
+🔧 Installation & Requirements
+Clone this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/<your-username>/House-Price-Prediction.git
+cd House-Price-Prediction
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+requirements.txt example:
+
+nginx
+Copy
+Edit
+pandas
+numpy
+scikit-learn
+matplotlib
+xgboost
+Usage
+1. Place dataset in data/ folder.
+2. Train the model:
+
+bash
+Copy
+Edit
+python src/train.py
+3. Make predictions:
+
+bash
+Copy
+Edit
+python src/predict.py
+ Output
+Trained models saved in models/
+
+Evaluation metrics & plots saved in results/
+
+ License
+This project is licensed under the MIT License – feel free to use and modify it.
+
 
 CLI scripts + optional Streamlit app
