@@ -33,13 +33,13 @@ The workflow includes:
 
 ##  Project Structure
 House-Price-Prediction/
-├── data/ # Dataset files
-├── notebooks/ # Jupyter notebooks for EDA & experiments
-├── src/ # Training & prediction scripts
-├── models/ # Saved models
-├── results/ # Metrics and plots
-├── requirements.txt # Dependencies
-└── README.md
+- data/  Dataset files
+- notebooks/  Jupyter notebooks for EDA & experiments
+- src/  Training & prediction scripts
+-  models/ # Saved models
+-  results/ # Metrics and plots
+-  requirements.txt # Dependencies
+-  README.md
 
 yaml
 Copy
