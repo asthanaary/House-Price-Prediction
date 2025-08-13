@@ -1,74 +1,31 @@
- House Price Prediction
-A simple Machine Learning project to predict house prices based on property features such as area, location, and number of rooms.
+# House Price Prediction
 
- Features
-Data cleaning and preprocessing
+A Machine Learning project to predict house prices based on various property features.  
+Built with **Python**, **scikit-learn**, and **XGBoost**.
 
-Exploratory Data Analysis (EDA)
+---
 
-Model training using Linear Regression, Random Forest, and XGBoost
+##  Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Project Structure](#project-structure)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Output](#output)
+7. [License](#license)
 
-Performance evaluation with RMSE, MAE, and R²
+---
 
-Easy prediction for new/unseen data
+##  Overview
+This project uses supervised learning algorithms to estimate house prices from features such as area, number of rooms, location, etc.  
+The workflow includes **data preprocessing**, **exploratory data analysis (EDA)**, **model training**, and **prediction**.
 
- Project Structure
-bash
-Copy
-Edit
-House-Price-Prediction/
-├── data/              # Dataset files
-├── notebooks/         # Jupyter notebooks for EDA & experiments
-├── src/               # Preprocessing & model training scripts
-├── models/            # Saved trained models
-├── results/           # Metrics and plots
-├── requirements.txt   # Python dependencies
-└── README.md
-🔧 Installation & Requirements
-Clone this repository:
+---
 
-bash
-Copy
-Edit
-git clone https://github.com/<your-username>/House-Price-Prediction.git
-cd House-Price-Prediction
-Install dependencies:
+##  Features
+- Clean & preprocess raw housing data
+- Train multiple models (Linear Regression, Random Forest, XGBoost)
+- Evaluate performance with **RMSE**, **MAE**, **R²**
+- Save trained models for later predictions
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-requirements.txt example:
-
-nginx
-Copy
-Edit
-pandas
-numpy
-scikit-learn
-matplotlib
-xgboost
-Usage
-1. Place dataset in data/ folder.
-2. Train the model:
-
-bash
-Copy
-Edit
-python src/train.py
-3. Make predictions:
-
-bash
-Copy
-Edit
-python src/predict.py
- Output
-Trained models saved in models/
-
-Evaluation metrics & plots saved in results/
-
- License
-This project is licensed under the MIT License – feel free to use and modify it.
-
-
-CLI scripts + optional Streamlit app
+---
